@@ -1,0 +1,7 @@
+{
+  "name": "style-spin",
+  "version": "1.0.0",
+  "bin": {
+    "spin": "index.js"
+  }
+}
