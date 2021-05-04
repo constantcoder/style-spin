@@ -14,5 +14,13 @@
     "styled-components",
     "emotion",
     "tailwind"
-  ]
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "constantcoder/style-spin",
+  "author": {
+    "name": "Garrett Lovell",
+    "email": "garrett@constantcoder.io",
+    "url": "https://www.twitter.com/CoderConstant"
+  }
 }
