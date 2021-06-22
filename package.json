@@ -1,18 +1,23 @@
 {
   "name": "style-spin",
   "version": "1.0.0",
-  "description": "A command line interface to help you spin up your new project with the JavaScript framework, library and styling you want.",
+  "description": "A command line interface to help you spin up your new project with whatever JavaScript framework, library and styling you want.",
   "bin": {
     "spin": "index.js"
   },
   "dependencies": {
+    "chalk": "^4.1.1",
     "cli-welcome": "^2.2.2"
   },
   "keywords": [
     "javascript",
+    "react",
+    "next",
+    "gatsby",
+    "shopify",
+    "emotion",
     "style",
     "styled-components",
-    "emotion",
     "tailwind"
   ],
   "license": "MIT",

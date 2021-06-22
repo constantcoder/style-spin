@@ -2,24 +2,21 @@
 
 const pkgJSON = require('./package.json');
 const welcome = require('cli-welcome');
+const chalk = require('chalk');
 
 welcome({
   title: `Style Spin`,
-  tagLine: `Spin it to win it`,
-  description: pkgJSON.description,
+  tagLine: chalk.rgb(255,255,0)(`Spin it to win it`),
+  description: chalk.italic(pkgJSON.description),
   version: pkgJSON.version,
-  bgColor: `#bada55`,
-  color: `#000000`,
+  bgColor: `80ffea`,
+  // color: `#131a20`,
   bold: true,
   clear: true,
 });
-console.log(`
-A command line interface to help you spin up your new project with the JavaScript framework, library and styling you want.
+console.log(`Made by ${chalk.rgb(128,255,234).bold(`Constant Coder`)}
 
-Made by Garrett Lovell
-
-Twitter: @CoderConstant
-GitHub: github.com/constantcoder
-Blog: constantcoder.io
-
+${chalk.rgb(128,255,234).bold.inverse(` Twitter `)} ${chalk.dim('https://www.twitter.com/CoderConstant')}
+${chalk.rgb(106,73,255).bold.inverse(` GitHub `)}  ${chalk.dim('https://www.github.com/constantcoder')}
+${chalk.rgb(255,118,188).bold.inverse(` Blog `)}    ${chalk.dim('https://www.constantcoder.io')}
 `);
